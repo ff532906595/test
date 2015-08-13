@@ -1,0 +1,36 @@
+I used to work at a real estate company at china, help them to build a web site to
+do the house management. the web site with many pages.In the main page, there is a big
+picture of our main building, and say something about our company.there are many 
+pictures link in the house page, it use to open a new web page to show the house details,
+sell rent or lease. and the map page to show our house location.and a contact us page to 
+show the information about us.
+
+the internal panel is build by RESTful API and make the CRUD operation to maintain the 
+employees, there is a sidebar in the left. employees can log in everyday and check in 
+for today's work. if we have new information should let everybody to know, the panel 
+will send e-mail to every employee.  
+
+we used want call evening bird, cause we have to work at night when we done the day job.
+but the name is captured, so our boss's girlfriend named evelyn, so we named our company 
+evelynbird.  
+
+evelynbird is a start up company, set up at October 2014, we aim at developing professional 
+web sites for its clients, and also provides management and technical maintenance for 
+products. there are 7 people in technical team, 4 in front-end and 3 in back, technical
+team leader and 2 other business guys responsible for communicate with clients to ask
+what they want. we have no office and work at home, if we need discuss some thing off line,
+we will find a coffee shop or some where like this to discuss the professional staff.
+
+Employee Management Panel is a single page application that build by MEAN stack, it used
+to manage the employees in the company. 
+At top is a menu bar, there is the company title and picture up on left, you can click the 
+picture return to dashboard view. right top is about us, customer can learn about the company 
+by click this.
+The sidebar made by custom directive using Angular.js, 
+it include a dashboard view to show up some bar chart and pie chart created by chart.js, 
+when you mouse in the charts it should float out the value of this part. 
+and a internal search view to list all the employees and employers, and a search function in 
+this page can do search by gender, city and skills, also can do multiple search by these filters, 
+when you click the employee's Head portrait, you can chat with him or send him email. 
+last view is some pie charts made by d3.js in custom directive.
+

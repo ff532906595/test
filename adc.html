@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html> 
+<head>  
+<script>
+function test(that){
+   console.log("child");
+}
+
+function parent(){
+ console.log("parent");
+}
+</script> 
+</head> 
+<body> 
+
+<div class="yyy" onclick="parent()">
+<div class="test" onclick="test(this)" onmousedown="down()">1</div>
+<div class="test" onclick="test(this)" onmousedown="down()">2</div>
+<div class="test" onclick="test(this)" onmousedown="down()">3</div>
+</div>
+
+</body> 
+</html> 
